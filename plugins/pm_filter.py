@@ -273,11 +273,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='t.me/Mo_Tech_YT'),
-                    InlineKeyboardButton('Source Code', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('Channel', url='t.me/Closechapters2_0'),
+                    InlineKeyboardButton('Source Code', url='t.me/joinchat/eZk8OSmHwR5jYTJl)
                 ]
                 ]
-            await query.message.edit(text=f"<b>Developer : <a href='http://t.me/Makerwith'>IRFAN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/joinchat/eZk8OSmHwR5jYTJl'>Click here</a>\nChannel : <a href='https://t.me/Closechapters_2_0'>Closechapters</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text=f"<b>Developer : <a href='http://t.me/Makerwith'>IRFAN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/joinchat/eZk8OSmHwR5jYTJl'>Click here</a>\nChannel : <a href='https://t.me/Closechapters2_0'>Closechapters</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
